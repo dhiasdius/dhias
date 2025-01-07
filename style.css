@@ -1,77 +1,58 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e9f5f0; /* Warna latar belakang yang lembut */
-    color: #333; /* Warna teks yang gelap untuk kontras yang baik */
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #6abf8a; /* Warna header yang lembut */
+    background: #007bff;
     color: white;
-    padding: 20px;
+    padding: 10px 0;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav {
-    margin: 10px 0;
+header .logo h1 {
+    margin: 0;
 }
 
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s; /* Transisi halus untuk efek hover */
-}
-
-nav a:hover {
-    color: #ffeb3b; /* Warna hover yang lembut */
-}
-
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white; /* Latar belakang konten putih */
-    border-radius: 8px; /* Sudut yang membulat */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2 {
-    color: #4a4a4a; /* Warna judul yang lebih gelap */
-}
-
-h2 {
-    border-bottom: 2px solid #6abf8a; /* Garis bawah untuk judul */
-    padding-bottom: 10px;
-}
-
-ul {
-    list-style-type: none; /* Menghilangkan bullet point */
+nav ul {
+    list-style: none;
     padding: 0;
 }
 
-ul li {
-    background-color: #f1f1f1; /* Latar belakang item daftar */
-    margin: 10px 0; /* Jarak antar item */
-    padding: 10px;
-    border-radius: 5px; /* Sudut yang membulat */
-    transition: background-color 0.3s; /* Transisi halus untuk efek hover */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-ul li:hover {
-    background-color: #d1e7dd; /* Warna hover untuk item daftar */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
     text-align: center;
-    padding: 15px 0;
-    background-color: #6abf8a; /* Warna footer yang lembut */
+    padding: 10px 0;
+    background: #007bff;
     color: white;
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-top: 20px; /* Jarak atas untuk footer */
 }
