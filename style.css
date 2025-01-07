@@ -47,7 +47,7 @@ nav ul li a {
 
 /* Efek saat hover */
 nav ul li a:hover {
-    animation: rainbow 1s infinite; /* Menjalankan animasi rainbow saat hover */
+    animation: rainbow 0.7s infinite; /* Menjalankan animasi rainbow saat hover */
 }
 
 /* Efek saat ditekan */
