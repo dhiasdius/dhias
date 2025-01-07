@@ -7,23 +7,6 @@ body {
     padding: 0;
     background-color: #f4f4f4; /* Warna latar belakang */
 }
-/* Gaya dasar untuk link */
-a {
-    color: #007bff; /* Warna teks link */
-    text-decoration: none; /* Menghilangkan garis bawah */
-    transition: transform 0.2s ease, color 0.2s ease; /* Transisi untuk efek */
-}
-
-/* Efek saat hover */
-a:hover {
-    color: #0056b3; /* Warna teks saat hover */
-}
-
-/* Efek saat ditekan */
-a:active {
-    transform: scale(0.95); /* Mengurangi ukuran link saat ditekan */
-    color: #004494; /* Warna teks saat ditekan */
-}
 
 /* Header */
 header {
@@ -57,10 +40,18 @@ nav ul li a {
     color: white; /* Warna teks link */
     text-decoration: none; /* Menghilangkan garis bawah */
     font-size: 18px; /* Ukuran font untuk link */
+    transition: transform 0.2s ease, color 0.2s ease; /* Transisi untuk efek */
 }
 
-nav ul li a:hover {
-    text-decoration: underline; /* Garis bawah saat hover */
+/* Efek saat hover */
+a:hover {
+    color: #0056b3; /* Warna teks saat hover */
+}
+
+/* Efek saat ditekan */
+a:active {
+    transform: scale(0.95); /* Mengurangi ukuran link saat ditekan */
+    color: #004494; /* Warna teks saat ditekan */
 }
 
 /* Bagian utama */
