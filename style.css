@@ -1,58 +1,75 @@
+/* Mengatur font dan ukuran dasar */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif; /* Ganti dengan font yang sesuai jika diperlukan */
+    font-size: 16px; /* Ukuran dasar untuk paragraf */
+    line-height: 1.5; /* Jarak antar baris */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Warna latar belakang */
 }
 
+/* Header */
 header {
-    background: #007bff;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+    background: #007bff; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+    padding: 20px 0; /* Padding atas dan bawah */
+    text-align: center; /* Teks rata tengah */
 }
 
+/* Logo */
 header .logo h1 {
-    margin: 0;
+    font-size: 36px; /* Ukuran H1 */
+    margin: 0; /* Menghilangkan margin */
 }
 
+/* Navigasi */
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* Menghilangkan bullet */
+    padding: 0; /* Menghilangkan padding */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline; /* Menampilkan item navigasi secara horizontal */
+    margin: 0 15px; /* Margin antar item */
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: white; /* Warna teks link */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-size: 18px; /* Ukuran font untuk link */
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Garis bawah saat hover */
 }
 
+/* Bagian utama */
 main {
-    padding: 20px;
+    padding: 20px; /* Padding untuk bagian utama */
 }
 
+/* Section */
 section {
-    margin-bottom: 20px;
-    background: white;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Margin bawah antar section */
+    background: white; /* Warna latar belakang section */
+    padding: 15px; /* Padding dalam section */
+    border-radius: 5px; /* Sudut melengkung */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan */
 }
 
+/* Ukuran paragraf */
+p {
+    font-size: 16px; /* Ukuran font untuk paragraf */
+    margin: 10px 0; /* Margin atas dan bawah untuk paragraf */
+}
+
+/* Footer */
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #007bff;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    text-align: center; /* Teks rata tengah */
+    padding: 10px 0; /* Padding atas dan bawah */
+    background: #007bff; /* Warna latar belakang footer */
+    color: white; /* Warna teks footer */
+    position: relative; /* Posisi relatif */
+    bottom: 0; /* Posisi bawah */
+    width: 100%; /* Lebar penuh */
 }
