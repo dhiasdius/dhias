@@ -7,10 +7,27 @@ body {
     padding: 0;
     background-color: #f4f4f4; /* Warna latar belakang */
 }
+/* Gaya dasar untuk link */
+a {
+    color: #007bff; /* Warna teks link */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    transition: transform 0.2s ease, color 0.2s ease; /* Transisi untuk efek */
+}
+
+/* Efek saat hover */
+a:hover {
+    color: #0056b3; /* Warna teks saat hover */
+}
+
+/* Efek saat ditekan */
+a:active {
+    transform: scale(0.95); /* Mengurangi ukuran link saat ditekan */
+    color: #004494; /* Warna teks saat ditekan */
+}
 
 /* Header */
 header {
-    background: #007bff; /* Warna latar belakang header */
+    background: #7b95b1; /* Warna latar belakang header */
     color: white; /* Warna teks header */
     padding: 20px 0; /* Padding atas dan bawah */
     text-align: center; /* Teks rata tengah */
@@ -70,7 +87,7 @@ p {
 footer {
     text-align: center; /* Teks rata tengah */
     padding: 10px 0; /* Padding atas dan bawah */
-    background: #007bff; /* Warna latar belakang footer */
+    background: #7b95b1; /* Warna latar belakang footer */
     color: white; /* Warna teks footer */
     position: relative; /* Posisi relatif */
     bottom: 0; /* Posisi bawah */
