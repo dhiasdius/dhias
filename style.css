@@ -39,19 +39,27 @@ nav ul li {
 nav ul li a {
     color: white; /* Warna teks link */
     text-decoration: none; /* Menghilangkan garis bawah */
-    font-size: 18px; /* Ukuran font untuk link */
-    transition: transform 0.2s ease, color 0.2s ease; /* Transisi untuk efek */
+    padding: 10px; /* Padding untuk memberikan ruang */
+    border-radius: 5px; /* Sudut melengkung */
+    background-color: #007bff; /* Warna latar belakang default */
+    transition: background-color 0.3s ease; /* Transisi untuk efek */
 }
 
 /* Efek saat hover */
 nav ul li a:hover {
-    color: #0056b3; /* Warna teks saat hover */
+    animation: rainbow 1s infinite; /* Menjalankan animasi rainbow saat hover */
 }
 
 /* Efek saat ditekan */
-nav ul li a:active {
-    transform: scale(0.95); /* Mengurangi ukuran link saat ditekan */
-    color: #004494; /* Warna teks saat ditekan */
+@keyframes rainbow {
+    0% { background-color: #f08585; } /* Merah */
+    14% { background-color: #e9ab6e; } /* Oranye */
+    28% { background-color: #ebeb65; } /* Kuning */
+    42% { background-color: #75f175; } /* Hijau */
+    57% { background-color: #77f0f0; } /* Cyan */
+    71% { background-color: #7a7af0; } /* Biru */
+    85% { background-color: #b77df1; } /* Ungu */
+    100% { background-color: #f87d7d; } /* Kembali ke Merah */
 }
 
 /* Bagian utama */
