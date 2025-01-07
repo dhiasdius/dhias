@@ -14,6 +14,9 @@ header {
     color: white; /* Warna teks header */
     padding: 20px 0; /* Padding atas dan bawah */
     text-align: center; /* Teks rata tengah */
+    position: sticky; /* Membuat header sticky */
+    top: 0; /* Menetapkan posisi atas */
+    z-index: 1000; /* Menjaga header di atas konten lainnya */
 }
 
 /* Logo */
