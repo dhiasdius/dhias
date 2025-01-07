@@ -44,12 +44,12 @@ nav ul li a {
 }
 
 /* Efek saat hover */
-a:hover {
+nav ul li a:hover {
     color: #0056b3; /* Warna teks saat hover */
 }
 
 /* Efek saat ditekan */
-a:active {
+nav ul li a:active {
     transform: scale(0.95); /* Mengurangi ukuran link saat ditekan */
     color: #004494; /* Warna teks saat ditekan */
 }
