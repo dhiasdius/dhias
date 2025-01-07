@@ -41,13 +41,14 @@ nav ul li a {
     text-decoration: none; /* Menghilangkan garis bawah */
     padding: 10px; /* Padding untuk memberikan ruang */
     border-radius: 5px; /* Sudut melengkung */
-    background-color: #007bff; /* Warna latar belakang default */
+    background-color: rgba(133, 190, 255, 50%); /* Warna latar belakang default */
+    box-shadow: 0 0 10 rgba(133, 190, 255, 50%);;
     transition: background-color 0.3s ease; /* Transisi untuk efek */
 }
 
 /* Efek saat hover */
 nav ul li a:hover {
-    animation: rainbow 0.7s infinite; /* Menjalankan animasi rainbow saat hover */
+    animation: rainbow 1.5s infinite; /* Menjalankan animasi rainbow saat hover */
 }
 
 /* Efek saat ditekan */
